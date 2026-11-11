@@ -1,0 +1,14 @@
+# Nix Flakes Allowlist
+
+# Disallow everything
+/**/*
+
+# Allow git to look inside directories
+!**/
+
+# Re-allow specific files and directories below this line
+!.gitignore
+!.keep
+
+!LICENSE
+!README.md
