@@ -1,0 +1,47 @@
+# Rust Allowlist
+
+# Disallow everything
+/**/*
+
+# Allow git to look inside directories
+!**/
+
+# Re-allow specific files and directories below this line
+!.gitignore
+!.keep
+
+#Project information files
+!LICENSE.md
+!LICENSE
+!README.md
+!README
+
+# Rust source files
+!*.rs
+!Cargo.toml
+!Cargo.lock
+!rust-toolchain.toml
+
+# Nix configuration
+!flake.nix
+!flake.lock
+
+# Shell environment
+!.envrc
+
+# Zed Editor
+#
+# > https://github.com/github/gitignore/blob/main/Global/Zed.gitignore
+!.zed/settings.json
+!.zed/tasks.json
+!.zed/debug.json
+
+# Visual Studio Code
+#
+# > https://github.com/github/gitignore/blob/main/Global/VisualStudioCode.gitignore
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+!*.code-workspace
+*.vsix

@@ -22,7 +22,7 @@
       ];
 
       shellHook = ''
-        echo "Environment active"
+        echo "🚀 Environment active"
 
         echo "Golang: $(go version)"
       '';
