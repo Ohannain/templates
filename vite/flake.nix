@@ -25,7 +25,7 @@
       shellHook = ''
         echo "🚀 Environment active"
 
-        echo "Vite: $(go version)"
+        echo "Vite: $(vite --version)"
       '';
     };
   };
