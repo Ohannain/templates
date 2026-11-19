@@ -1,0 +1,21 @@
+{
+  "name": "vite-template",
+  "desription": "This is a basic vite template",
+  "version": "0.1.0",
+  "keywords": [],
+  "private": true,
+  "type": "module",
+  "repository": "",
+  "contributors": [],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "12.16.1"
+    }
+  }
+}
