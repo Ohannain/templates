@@ -25,6 +25,9 @@
       shellHook = ''
         echo "🚀 Environment active"
 
+        echo "Node: $(node --version)"
+        echo "pnpm: $(pnpm --version)"
+        pnpm install
         echo "Vite: $(vite --version)"
       '';
     };
